@@ -1,6 +1,6 @@
 <?php
 session_start();
-require "koneksi.php";
+require "../koneksi.php";
 if (!$_SESSION['login']) {
     // Redirect ke halaman login
     header('Location: index.php');
@@ -23,7 +23,7 @@ if (!$_SESSION['login']) {
 </head>
 <body class="kanit-thin">
 <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-  <a class="navbar-brand" href="#"><b>SIDA PPDB 2024</b></a>
+  <a class="navbar-brand" href="#"><b>SIDA &nbsp;PPDB &nbsp;2024</b></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
